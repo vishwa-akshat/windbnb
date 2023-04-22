@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    .title {
+        font-size: 24px;
+    }
+
+    .property-count {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header {
+        margin-top: 35px;
+
+        .title {
+            font-size: 18px;
+        }
+    }
+}
