@@ -7,3 +7,15 @@
         width: 96px;
     }
 }
+
+@media only screen and (max-width: 425px) {
+    .navbar-wrapper {
+        flex-direction: column;
+
+        .logo {
+            width: 105px;
+            align-self: flex-start;
+            margin-bottom: 40px;
+        }
+    }
+}
