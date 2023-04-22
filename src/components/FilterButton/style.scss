@@ -1,0 +1,29 @@
+.filter-btn-wrapper {
+    display: flex;
+    border-radius: 16px;
+    box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.05);
+    font-family: Mulish, Montserrat;
+
+    .location {
+        padding: 20px 16px;
+        color: #333333;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .guest {
+        padding: 20px 16px;
+        border-left: 1px solid #f2f2f2;
+        border-right: 1px solid #f2f2f2;
+        color: #bdbdbd;
+        font-size: 14px;
+    }
+    .search-icon {
+        padding: 26px 16px;
+        display: inline-block;
+        font-size: 35px;
+        color: #eb5757;
+        transform: rotateY(180deg);
+        line-height: 0;
+    }
+}
