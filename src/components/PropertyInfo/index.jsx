@@ -7,7 +7,6 @@ import SuperHostTag from "src/components/SuperHostTag";
 import "./style.scss";
 
 export default function PropertyInfo({ propertyData }) {
-    console.log(propertyData);
     return (
         <div className="property-info-wrapper">
             <div className="property-info">

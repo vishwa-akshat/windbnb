@@ -1,0 +1,21 @@
+.btn {
+    background: #eb5757;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f2f2f2;
+    border: none;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 18px;
+    display: flex;
+    padding: 15px 25px;
+
+    .search-icon {
+        display: inline-block;
+        font-size: 30px;
+        transform: rotateY(180deg);
+        line-height: 12px;
+        margin-right: 10px;
+    }
+}
