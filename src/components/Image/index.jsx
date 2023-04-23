@@ -1,5 +1,7 @@
 import React from "react";
 
-export default function Image() {
-    return <div>Image</div>;
+import "./style.scss";
+
+export default function Image({ src, alt }) {
+    return <img className="property-image" src={src} alt={alt} />;
 }
