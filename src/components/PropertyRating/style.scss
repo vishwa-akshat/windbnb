@@ -1,0 +1,17 @@
+.rating-wrapper {
+    display: flex;
+    align-items: center;
+
+    .star {
+        color: #eb5757;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .rating {
+        font-size: 14px;
+        color: #4f4f4f;
+        font-weight: 500;
+        margin-left: 5px;
+    }
+}
