@@ -1,0 +1,16 @@
+.super-host-tag {
+    padding: 6px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4f4f4f;
+    border: 1px solid #4f4f4f;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+    .super-host-tag {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+}

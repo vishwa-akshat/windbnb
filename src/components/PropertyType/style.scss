@@ -3,3 +3,9 @@
     font-size: 14px;
     color: #828282;
 }
+
+@media only screen and (max-width: 425px) {
+    .property-type {
+        font-size: 12px;
+    }
+}

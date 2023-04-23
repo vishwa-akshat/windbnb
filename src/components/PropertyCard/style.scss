@@ -5,3 +5,11 @@
         color: #333333;
     }
 }
+
+@media only screen and (max-width: 425px) {
+    .property-card-wrapper {
+        .title {
+            font-size: 14px;
+        }
+    }
+}

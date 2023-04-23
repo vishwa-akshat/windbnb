@@ -3,4 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .property-info {
+        display: flex;
+        align-items: center;
+    }
 }

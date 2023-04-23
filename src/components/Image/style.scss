@@ -4,3 +4,9 @@
     border-radius: 24px;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 425px) {
+    .property-image {
+        height: 238px;
+    }
+}
