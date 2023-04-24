@@ -8,14 +8,34 @@ export default function FilterButton() {
     const setIsFilterMenuVisible = useGlobalStore(
         (state) => state.setIsFilterMenuVisible
     );
+    const setIsLocationMenuActive = useGlobalStore(
+        (state) => state.setIsLocationMenuActive
+    );
+    const setIsGuestModifyMenuActive = useGlobalStore(
+        (state) => state.setIsGuestModifyMenuActive
+    );
 
-    const handleFilterClick = () => setIsFilterMenuVisible(true);
+    const handleLocationFilterClick = () => {
+        setIsFilterMenuVisible(true);
+        setIsLocationMenuActive(true);
+    };
+
+    const handleGuestsFilterClick = () => {
+        setIsFilterMenuVisible(true);
+        setIsGuestModifyMenuActive(true);
+    };
 
     return (
-        <div className="filter-btn-wrapper" onClick={handleFilterClick}>
-            <div className="location">Helsinki, Finland</div>
-            <div className="guest">Add guests</div>
-            <div className="search-icon">⌕</div>
+        <div className="filter-btn-wrapper">
+            <div className="location" onClick={handleLocationFilterClick}>
+                Helsinki, Finland
+            </div>
+            <div className="guest" onClick={handleGuestsFilterClick}>
+                Add guests
+            </div>
+            <div className="search-icon" onClick={handleLocationFilterClick}>
+                ⌕
+            </div>
         </div>
     );
 }
