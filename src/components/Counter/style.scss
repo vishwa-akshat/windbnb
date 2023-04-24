@@ -1,0 +1,20 @@
+.counter-wrapper {
+    .counter-btn {
+        background: transparent;
+        border: 1px solid #828282;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 23px;
+        height: 23px;
+        color: #828282;
+        cursor: pointer;
+    }
+
+    .count {
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0 16px;
+        color: #333333;
+    }
+}

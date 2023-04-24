@@ -7,3 +7,10 @@
     z-index: 999;
     padding: 90px 96px;
 }
+
+@media only screen and (max-width: 425px) {
+    .filter-menu-wrapper {
+        min-height: 600px;
+        padding: 18px 0 24px;
+    }
+}

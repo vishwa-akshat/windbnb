@@ -1,5 +1,5 @@
 .filter-bar-wrapper {
-    width: 100%;
+    width: calc(100% - 192px);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 16px;
@@ -37,5 +37,21 @@
     .search-wrapper {
         display: grid;
         place-items: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .filter-bar-wrapper {
+        width: calc(100% - 24px);
+        grid-template-columns: 1fr;
+
+        .guest-wrapper {
+            border-top: 1px solid #f2f2f2;
+            border-left: none;
+            border-right: none;
+        }
+        .search-wrapper {
+            display: none;
+        }
     }
 }

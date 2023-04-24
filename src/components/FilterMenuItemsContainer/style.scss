@@ -1,0 +1,6 @@
+.filter-menu-items-container {
+    width: calc(100% - 192px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: Mulish;
+}
