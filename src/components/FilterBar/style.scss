@@ -56,7 +56,7 @@
 
 @media only screen and (max-width: 425px) {
     .filter-bar-wrapper {
-        width: calc(100% - 24px);
+        width: 100%;
         grid-template-columns: 1fr;
 
         .guest-wrapper {

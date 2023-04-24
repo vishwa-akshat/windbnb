@@ -25,6 +25,5 @@ export const usePropertyStore = create((set, get) => ({
                     useGlobalStore.getState().filterBarLocationField
             ).filter((property) => property.maxGuests > guestCount),
         }));
-        console.log(guestCount);
     },
 }));

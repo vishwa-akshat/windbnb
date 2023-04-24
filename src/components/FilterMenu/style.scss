@@ -6,11 +6,48 @@
     top: 0;
     z-index: 999;
     padding: 90px 96px;
+
+    .filter-menu-header-mobile {
+        display: none;
+    }
+    .search-btn-wrapper-mobile {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 425px) {
     .filter-menu-wrapper {
         min-height: 600px;
-        padding: 18px 0 24px;
+        padding: 18px 16px 24px;
+        left: 0;
+
+        .filter-menu-header-mobile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .header-title {
+                font-family: Mulish;
+                font-weight: 700;
+                font-size: 14px;
+            }
+
+            .close-menu {
+                background: transparent;
+                border: none;
+                outline: none;
+                font-size: 20px;
+            }
+        }
+
+        .search-btn-wrapper-mobile {
+            width: calc(100% - 32px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 20px;
+        }
     }
 }

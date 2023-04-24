@@ -4,3 +4,10 @@
     grid-template-columns: repeat(3, 1fr);
     font-family: Mulish;
 }
+
+@media only screen and (max-width: 425px) {
+    .filter-menu-items-container {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
