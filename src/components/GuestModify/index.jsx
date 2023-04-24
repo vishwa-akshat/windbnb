@@ -4,14 +4,22 @@ import Counter from "src/components/Counter";
 
 import "./style.scss";
 
-export default function GuestModify({ title }) {
+export default function GuestModify({
+    title,
+    range,
+    count,
+    handleIncreaseCount,
+    handleDecreaseCount,
+}) {
     return (
         <div className="guest-modify-wrapper">
             <p className="title">{title}</p>
-            <p className="age-range">
-                Ages {title === "Adult" ? "13 or above" : "2-12"}
-            </p>
-            <Counter />
+            <p className="age-range">Ages {range}</p>
+            <Counter
+                count={count}
+                handleIncreaseCount={handleIncreaseCount}
+                handleDecreaseCount={handleDecreaseCount}
+            />
         </div>
     );
 }

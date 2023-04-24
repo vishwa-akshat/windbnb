@@ -14,21 +14,26 @@ export default function FilterButton() {
     const setIsGuestModifyMenuActive = useGlobalStore(
         (state) => state.setIsGuestModifyMenuActive
     );
+    const filterBarLocationField = useGlobalStore(
+        (state) => state.filterBarLocationField
+    );
 
     const handleLocationFilterClick = () => {
         setIsFilterMenuVisible(true);
         setIsLocationMenuActive(true);
+        setIsGuestModifyMenuActive(false);
     };
 
     const handleGuestsFilterClick = () => {
         setIsFilterMenuVisible(true);
         setIsGuestModifyMenuActive(true);
+        setIsLocationMenuActive(false);
     };
 
     return (
         <div className="filter-btn-wrapper">
             <div className="location" onClick={handleLocationFilterClick}>
-                Helsinki, Finland
+                {filterBarLocationField}, Finland
             </div>
             <div className="guest" onClick={handleGuestsFilterClick}>
                 Add guests
