@@ -1,12 +1,11 @@
 import React from "react";
 
-import LocationOptions from "src/components/LocationOptions";
-import GuestsModifyOptions from "src/components/GuestsModifyOptions";
+import LocationOptions from "/src/components/LocationOptions";
+import GuestsModifyOptions from "/src/components/GuestsModifyOptions";
 
-import { useGlobalStore } from "src/store/GlobalStore";
+import { useGlobalStore } from "/src/store/GlobalStore";
 
 import "./style.scss";
-import { useEffect } from "react";
 
 export default function FilterMenuItemsContainer() {
     const {

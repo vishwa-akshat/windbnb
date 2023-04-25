@@ -1,7 +1,7 @@
 import React from "react";
 
-import Image from "src/components/Image";
-import PropertyInfo from "src/components/PropertyInfo";
+import Image from "/src/components/Image";
+import PropertyInfo from "/src/components/PropertyInfo";
 
 import "./style.scss";
 

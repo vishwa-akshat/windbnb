@@ -1,11 +1,11 @@
 import React from "react";
 
-import FilterBar from "src/components/FilterBar";
-import FilterMenuItemsContainer from "src/components/FilterMenuItemsContainer";
-import Button from "src/components/Button";
+import FilterBar from "/src/components/FilterBar";
+import FilterMenuItemsContainer from "/src/components/FilterMenuItemsContainer";
+import Button from "/src/components/Button";
 
-import { useGlobalStore } from "src/store/GlobalStore";
-import { usePropertyStore } from "src/store/PropertyStore";
+import { useGlobalStore } from "/src/store/GlobalStore";
+import { usePropertyStore } from "/src/store/PropertyStore";
 
 import "./style.scss";
 
@@ -17,6 +17,7 @@ export default function FilterMenu() {
         filterBarLocationField,
         filterBarGuestsField,
     } = useGlobalStore((state) => state);
+
     const { setLocationFilter, setGuestFilter } = usePropertyStore(
         (state) => state
     );

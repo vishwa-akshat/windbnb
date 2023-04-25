@@ -1,8 +1,8 @@
 import React from "react";
 
-import GuestModify from "src/components/GuestModify";
+import GuestModify from "/src/components/GuestModify";
 
-import { useGlobalStore } from "src/store/GlobalStore";
+import { useGlobalStore } from "/src/store/GlobalStore";
 
 import "./style.scss";
 

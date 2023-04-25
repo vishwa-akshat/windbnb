@@ -1,9 +1,9 @@
 import React from "react";
 
-import Navbar from "src/components/Navbar";
-import StayHeader from "src/components/StayHeader";
-import PropertyList from "src/components/PropertyList";
-import FilterMenu from "src/components/FilterMenu";
+import Navbar from "/src/components/Navbar";
+import StayHeader from "/src/components/StayHeader";
+import PropertyList from "/src/components/PropertyList";
+import FilterMenu from "/src/components/FilterMenu";
 
 import "./style.scss";
 

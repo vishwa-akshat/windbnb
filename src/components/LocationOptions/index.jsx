@@ -1,7 +1,7 @@
 import React from "react";
 
-import { usePropertyStore } from "src/store/PropertyStore";
-import { useGlobalStore } from "src/store/GlobalStore";
+import { usePropertyStore } from "/src/store/PropertyStore";
+import { useGlobalStore } from "/src/store/GlobalStore";
 
 import "./style.scss";
 

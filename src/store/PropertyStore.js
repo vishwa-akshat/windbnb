@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-import PROPERTY_DATA from "src/stays.json";
+import PROPERTY_DATA from "/src/stays.json";
 import { useGlobalStore } from "./GlobalStore";
 
 export const usePropertyStore = create((set, get) => ({

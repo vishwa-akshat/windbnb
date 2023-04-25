@@ -1,8 +1,8 @@
 import React from "react";
 
-import PropertyType from "src/components/PropertyType";
-import PropertyRating from "src/components/PropertyRating";
-import SuperHostTag from "src/components/SuperHostTag";
+import PropertyType from "/src/components/PropertyType";
+import PropertyRating from "/src/components/PropertyRating";
+import SuperHostTag from "/src/components/SuperHostTag";
 
 import "./style.scss";
 

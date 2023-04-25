@@ -1,9 +1,9 @@
 import React from "react";
 
-import Button from "src/components/Button";
+import Button from "/src/components/Button";
 
-import { useGlobalStore } from "src/store/GlobalStore";
-import { usePropertyStore } from "src/store/PropertyStore";
+import { useGlobalStore } from "/src/store/GlobalStore";
+import { usePropertyStore } from "/src/store/PropertyStore";
 
 import "./style.scss";
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { usePropertyStore } from "src/store/PropertyStore";
+import { usePropertyStore } from "/src/store/PropertyStore";
 
 import "./style.scss";
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useGlobalStore } from "src/store/GlobalStore";
+import { useGlobalStore } from "/src/store/GlobalStore";
 
 import "./style.scss";
 

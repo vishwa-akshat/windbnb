@@ -1,8 +1,8 @@
 import React from "react";
 
-import PropertyCard from "src/components/PropertyCard";
+import PropertyCard from "/src/components/PropertyCard";
 
-import { usePropertyStore } from "src/store/PropertyStore";
+import { usePropertyStore } from "/src/store/PropertyStore";
 
 import "./style.scss";
 
